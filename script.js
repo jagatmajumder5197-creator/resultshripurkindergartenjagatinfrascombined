@@ -136,7 +136,7 @@ document.getElementById('classSelect').addEventListener('change', function () {
   const signImg = document.getElementById('classTeacherSign');
   if (signImg) {
     if (cls && signatureMap[cls]) {
-      signImg.src = `Signatures/${signatureMap[cls]}`;
+      signImg.src = `Images/${signatureMap[cls]}`;
       signImg.style.display = 'block';
     } else {
       signImg.style.display = 'none';
